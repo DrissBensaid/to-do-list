@@ -1,0 +1,77 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #153677, #4e085f);
+}
+
+.to-do-list{
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+}
+
+.row{
+  background-color: rgb(225, 225, 225);
+  border-radius: 40px;
+  padding: 0;
+  margin: 0;
+}
+
+.to-do-list input{
+    flex:1;
+    height: 50px;
+    padding: 0 0 0 15px;
+    border-radius: 40px;
+    border: none;
+    outline: none;
+    width: 300px;
+    background-color: rgb(225, 225, 225);
+}
+
+.to-do-list h1{
+    color: #153677;
+    font-size: 20px;
+}
+
+.addbutton {
+    border: none;
+    background-color: rgb(255, 144, 53);
+    color: white;
+    border-radius: 40px;
+    padding: 16px 50px;
+    cursor: pointer;
+} 
+
+.div-task{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border:0.5px solid rgb(225, 225, 225);
+    margin-top: 30px;
+    padding: 10px;
+    border-radius: 7px;
+    color:rgb(167, 167, 167);
+}
+
+.div-task div button{
+    margin: 4px;
+    border: none;
+    background-color: rgb(255, 144, 53);
+    color: white;
+    border-radius: 10px;
+    padding:5px 20px;
+    cursor: pointer;
+}
+
+.div-task li{
+    list-style: none;
+    margin-left:  5px;
+}
